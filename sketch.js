@@ -71,9 +71,9 @@ function draw(){
 gameOver.visible = false
 //ball.collide(invisibleGround1)
 //ball.collide(invisibleGround2)
-edges= createEdgeSprites();
-  ball.collide(edges);
-coinsGroup.collide(invisibleGround2)
+//edges= createEdgeSprites();
+  //ball.collide(edges);
+//coinsGroup.collide(invisibleGround2)
     createCoins();
     createfires();
     createbombs();
